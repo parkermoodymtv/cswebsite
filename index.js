@@ -1,8 +1,8 @@
 let happyCustomers = Math.floor(Math.random() * 5000);
-let cakesEaten = Math.floor(Math.random() * 5000);
+let cakesEaten = Math.floor(Math.random() * 7500);
 let sprinklesUsed = Math.floor(Math.random() * 10000000);
 
-function updateStates() {
+function updateStats() {
 	let newHappyCustomers = Math.floor(Math.random() * 10);
 	happyCustomers += newHappyCustomers;
 	document.getElementById("happycustomersstat").innerHTML =
@@ -18,7 +18,7 @@ function updateStates() {
 	document.getElementById("sprinklesusedstat").innerHTML =
 		sprinklesUsed.toLocaleString() + " Sprinkles Used";
 
-	setTimeout(updateStates, 750);
+	setTimeout(updateStats, 250);
 }
 
-updateStates();
+updateStats();
