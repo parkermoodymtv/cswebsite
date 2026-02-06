@@ -12,20 +12,20 @@
 
 #cakeshopinfo {
 	text-align: left;
-	margin: 2rem;
+	margin-top: 1rem;
 	color: black;
 	font-size: 25px;
 	width: 50%;
 	margin-right: auto;
-	margin-left: 6rem;
+	margin-left: 2rem;
 }
 
 #cakeshopvideo {
 	text-align: right;
-	margin: 2rem;
+	margin-top: 1rem;
 	width: 50%;
 	margin-left: auto;
-	margin-right: 6rem;
+	margin-right: 2rem;
 }
 
 .popout {
@@ -54,13 +54,15 @@
 }
 
 .popout #button {
+	margin-top: 1.5rem;
 	width: 256px;
 	height: 52px;
-	font-size: 40px;
+}
 
+.popout #button h1 {
+	font-size: 39px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1rem;
 }
 
 #cakeshopimages {
@@ -104,6 +106,9 @@
 	margin: auto;
 	position: absolute;
 	padding: 0.5rem;
+	inset: 0;
+	/* force the desc to fit inside the image box */
+	overflow: scroll;
 }
 
 .cakewrapper:hover .cakedesc {
