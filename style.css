@@ -20,7 +20,7 @@ header {
 	color: white;
 	background-color: #404040;
 	padding: 0.8rem;
-	text-shadow: 4px 5px #2a2a2a;
+	text-shadow: 3px 4px #2a2a2a;
 	box-shadow: 0px 4px #578eb5;
 	display: flex;
 	/* Allows multiple elements at same height */
@@ -34,7 +34,7 @@ footer {
 	color: white;
 	background-color: #404040;
 	padding: 0.8rem;
-	text-shadow: 4px 5px #2a2a2a;
+	text-shadow: 3px 4px #2a2a2a;
 	box-shadow: 0px 4px #578eb5;
 	display: flex;
 	/* Allows multiple elements at same height */
