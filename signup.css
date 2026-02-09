@@ -1,0 +1,22 @@
+h2 {
+    margin-bottom: 1rem;
+}
+
+input {
+    font-family:'Times New Roman', Times, serif;
+	text-align: center;
+	margin-bottom: 2rem;
+	color: white;
+	font-size: 20px;
+	margin-right: 6rem;
+	margin-left: 6rem;
+	background-color: #578eb5;
+	box-shadow: 4px 5px #5786b5;
+	border-radius: 8px;
+	padding: 0.5rem;
+}
+
+input[type="number"] {
+    width: 3.5rem;
+    padding-right: 0;
+}
