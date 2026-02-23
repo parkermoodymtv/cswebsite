@@ -39,6 +39,12 @@
 	padding-bottom: 2rem;
 }
 
+#cakeshopimages h1 {
+	margin-left: 4rem;
+	margin-right: 4rem;
+	margin-top: 2rem;
+}
+
 .cakewrapper {
 	width: 23%;
 	object-fit: cover;
@@ -73,6 +79,15 @@
 	inset: 0;
 	/* force the desc to fit inside the image box */
 	overflow: scroll;
+}
+
+.cakedesc {
+	font-size: 18px;
+}
+
+.cakedesc b {
+	font-size: 1.25em;
+	font-weight: bolder;
 }
 
 .cakewrapper:hover .cakedesc {
