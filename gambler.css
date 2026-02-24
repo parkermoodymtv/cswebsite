@@ -1,0 +1,16 @@
+p {
+    text-align: center;
+    text-shadow: 2px 3px #2a2a2a;
+    color: white;
+    font-size: 25px;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+#gamblertitle {
+    font-size: 45px;
+    text-shadow: 2px 3px #2a2a2a;
+    color: white;
+}
