@@ -24,4 +24,20 @@ input[type="number"] {
 input[type="submit"]{
 	padding-left: 1rem;
 	padding-right: 1rem;
+	margin-bottom: 0;
+}
+
+.popout {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#thanks {
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin-top: 8rem;
+}
+
+#homebutton {
+	margin-bottom: 8rem;
 }
