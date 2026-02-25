@@ -8,7 +8,7 @@ submit.addEventListener("click", function () {
     if (form && thanks && home && footer) {
         form.remove();
         footer.remove();
-        thanks.innerHTML = "Thanks for signing up for all you can eat CAKE! See you soon!";
+        thanks.hidden = false;
         home.hidden = false;
     }
 });
